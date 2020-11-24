@@ -1,0 +1,121 @@
+
+body {
+    font-family: 'Nerko One', cursive;
+    background-color: black;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nerko One', cursive;
+  letter-spacing: 5px;
+}
+
+figcaption{
+    text-align: right;
+    justify-content: right;
+}
+blockquote{
+    text-align: right;
+}
+/**** Nav Bar Tingz *************************************************************************/
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: red;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: pink;
+}
+
+/**** Floting Images Tingz *************************************************************************/
+
+.faded
+  {
+     opacity:0.5;
+  }
+  
+  .faded:hover
+  {
+    opacity:1.0;
+    box-shadow: 5px 10px #868383;
+
+  }
+  
+  .grow { transition: all .2s ease-in-out; }
+  .grow:hover { transform: scale(1.1); }
+  /*
+  Image
+  */
+  .floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+.box{
+  box-shadow: black;
+  border-color: blue;
+}
+/*
+Block
+*/
+
+.container {
+  margin: 0 auto;
+  width: 75%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+.block {
+  width: 200px;
+  height: 200px;
+  background: orangered;
+  margin-top: 15px;
+  line-height: 150px;
+  transition: all 300ms ease-in-out;
+  text-align: center;
+  text-orientation: inherit;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+  margin-left: 50px;
+
+}
+.rotate:hover {
+  transform: rotateZ(-90deg);
+   background: aqua;
+  color: black;  
+  transform: background-color 1000ms ease;
+  transition: background 1000ms linear;
+  
+}
+
