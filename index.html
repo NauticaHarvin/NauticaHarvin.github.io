@@ -4,6 +4,8 @@
   <title>Nautica's Final Assignment</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -15,7 +17,7 @@
 </head>
 <body style="background-color:black; >
 
-<nav class=" navbar navbar-inverse" >
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -41,12 +43,14 @@
 
 <header style="background:blue !important"  class="jumbotron">
     <div class="container text-center">
-      <h1 style="color: black;">Jenna Lucy's Portfolio</h1>      
-      <p style="color: black">Creative | Brilliant | Revloutionary</p>
+      <h1 style="color: black;"><bold>Jenna Lucy's Portfolio</bold></h1>      
+    </div>
+    <div class="center">
+        <p  style="color: black">Creative | Brilliant | Revloutionary</p>
     </div>
 </header>
   
-<div class="container-fluid bg-3 text-center">    
+<div class="container-fluid bg-3 text-center nFont">    
   <h3>“Jenna Lucy makes ‘finger paintings’ portraying tigers in the night,
        bowerbirds, South Asian drag queens, and herself as a towering belle of some fantasy
        ball. So much sincerity and obsessiveness come through here that you lower your 
@@ -61,19 +65,19 @@
   <div class="row">
     <div class="col-sm-3">
       <h2>People</h2>
-      <img src="People.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <img src="People.jpg" class="img-responsive grow" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-3"> 
       <h2>Shakin' Dogs</h2>
-      <img src="Dog.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <img src="Dog.jpg" class="img-responsive grow" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-3"> 
       <h2>Flora & Fauna</h2>
-      <img src="Fox.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <img src="Fox.jpg" class="img-responsive grow" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-3">
       <h2>Landscapes</h2>
-      <img src="Land.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <img src="Land.jpg" class="img-responsive grow" style="width:100%" alt="Image">
     </div>
   </div>
 </div><br>
@@ -82,26 +86,26 @@
   <div class="row">
     <div class="col-sm-3">
       <h2>Ubran</h2>
-      <img src="Street.jfif" class="img-responsive floating" style="width:100%" alt="Image">
+      <img src="Street.jfif" class="img-responsive grow" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-3"> 
       <h2>Water</h2>
-      <img src="Water.jpeg" class="img-responsive" style="width:100%" alt="Image">
+      <img src="Water.jpeg" class="img-responsive grow" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-3"> 
       <h2>Shakin' Dogs</h2>
-      <img src="Dogg.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <img src="Dogg.jpg" class="img-responsive grow" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-3">
       <h2>Fishy Fish</h2>
-      <img src="Fish.jpg" class="floating" style="width:100%" alt="Image">
+      <img src="Fish.jpg" class="grow" style="width:100%" alt="Image">
     </div>
   </div>
 </div>
 <br>
 <br>
 
-<div>
+<div class="center">
     <!-- Header -->
 <header class="bg-primary text-center py-5 mb-4">
     <div class="container">
@@ -113,17 +117,17 @@
   <div class="container">
     <div class="row">
       <!-- Team Member 1 -->
-      <div class="col-xl-3 col-md-6 mb-4">
+      <div class="col-xl-3 col-md-6 mb-4 ">
         <div class="card border-0 shadow">
           <img src="Tiger.webp" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h2 class="card-title mb-0">Tiger Canvas</h2>
-            <div class="card-text text-black-50">WBuy Now: $53.99</div>
+            <div class="card-text text-black-50">Buy Now: $53.99</div>
           </div>
         </div>
       </div>
       <!-- Team Member 2 -->
-      <div class="col-xl-3 col-md-6 mb-4">
+      <div class="col-xl-3 col-md-6 mb-4 ">
         <div class="card border-0 shadow">
           <img src="EggPlant.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
@@ -133,7 +137,7 @@
         </div>
       </div>
       <!-- Team Member 3 -->
-      <div class="col-xl-3 col-md-6 mb-4">
+      <div class="col-xl-3 col-md-6 mb-4 ">
         <div class="card border-0 shadow">
           <img src="Forrest.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
@@ -143,26 +147,24 @@
         </div>
       </div>
       <!-- Team Member 4 -->
-      <div class="col-xl-3 col-md-6 mb-4 grow">
-        <div class="card border-0 shadow grow">
-          <img src="Landd.jpg" class="card-img-top grow" alt="...">
+      <div class="col-xl-3 col-md-6 mb-4 ">
+        <div class="card border-0 shadow ">
+          <img src="Landd.jpg" class="card-img-top " alt="...">
           <div class="card-body text-center">
-            <h2 class="card-title mb-0">Team Member</h2>
+            <h2 class="card-title mb-0">Landscape Canvas</h2>
             <div class="card-text text-black-50">Buy Now: $50.99</div>
           </div>
         </div>
       </div>
     </div>
     <!-- /.row -->
-  
   </div>
   <!-- /.container -->
   
 </div>
 
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
-  <h2>Follow Lucy On Social Media</h2>
+<footer class="container-fluid text-center" style="background-color: black;">
+  <h2>Follow Jenna Lucy On Social Media</h2>
 
 <!-- Add font awesome icons -->
 <a href="#" class="fa fa-facebook"></a>
@@ -173,18 +175,8 @@
 <a href="#" class="fa fa-instagram"></a>
 <a href="#" class="fa fa-pinterest"></a>
 <a href="#" class="fa fa-snapchat-ghost"></a>
-<a href="#" class="fa fa-skype"></a>
-<a href="#" class="fa fa-android"></a>
-<a href="#" class="fa fa-dribbble"></a>
-<a href="#" class="fa fa-vimeo"></a>
-<a href="#" class="fa fa-tumblr"></a>
-<a href="#" class="fa fa-vine"></a>
-<a href="#" class="fa fa-foursquare"></a>
-<a href="#" class="fa fa-stumbleupon"></a>
-<a href="#" class="fa fa-flickr"></a>
-<a href="#" class="fa fa-yahoo"></a>
 <a href="#" class="fa fa-reddit"></a>
-<a href="#" class="fa fa-rss"></a>
+
 </footer>
 
 </body>
